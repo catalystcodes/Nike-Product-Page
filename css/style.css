@@ -10,6 +10,8 @@ body {
     width: 19rem;
     /* height: 25rem; */
     /* border-radius: 10px; */
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
 }
 
 img {
@@ -23,16 +25,18 @@ img {
     /* border-radius: 10px; */
     background-color: rgb(255, 255, 255);
     /* height: 30rem; */
-    width: 26.9rem;
+    width: 37rem;
     color: gray;
     margin-right: 3rem;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
 
 #whole {
     height: 35rem;
     display: flex;
     justify-content: center;
-    border-radius: 30px;
+    /* border-radius: 30px; */
 }
 
 #dollar {
@@ -70,6 +74,7 @@ img {
     font-size: xx-large;
     margin-bottom: 1rem;
     margin-left: 3rem;
+    color: rgb(68, 68, 68);
 }
 
 .circle1 {
@@ -125,4 +130,26 @@ img {
 
 #p2 {
     margin-left: 3rem;
+}
+
+.line1 {
+    border-left: 7px solid rgb(238, 238, 238);
+    height: 40px;
+}
+
+#mafo {
+    border-radius: 10px;
+    display: flex;
+}
+
+.star {
+    width: 90px;
+    height: 30px;
+    margin-left: 10rem;
+    margin-bottom: 4.5rem;
+}
+
+#star1 {
+    display: flex;
+    align-items: center;
 }
